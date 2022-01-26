@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap");
+body {
+  margin: 10px;
+  font-family: "Roboto Mono", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(192,223,237);
+  background: linear-gradient(90deg, rgba(192,223,237,1) 0%, 
+  rgba(183,172,227,1) 100%);
+  background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+html,
+body {
+  color: #414756;
+  height: 98%;
+  display: flex;
+  justify-content: center;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70vw;
+}
+@media only screen and (max-width: 600px) {
+  #main {
+    width: 90vw;
+  }
+}
+
+.wrapper {
+  background-color: rgba(255, 255, 255, 0.55);
+  border-radius: 10px;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  box-sizing: border-box;
+  margin-bottom: 3vh;
+  width: 100%;
+}
+
+.title-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.clock.buttons {
+  /* clock and buttons div */
+  letter-spacing: normal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2vh 0;
+}
+
+@media (max-width: 600px) {
+  .css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+    width: 80%;
+  }
+}
+
+.actual-timer {
+  color: #1f1f1f;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: max(2.5vw, 2rem);
+}
+.actual-timer div {
+  /*background-color: rgba(255, 255, 255, 0.238);*/
+  border-radius: 10px;
+  /*border: 1px solid #414756;*/
+  color: #1e1e1f;
+  padding: 3px 8px;
+  margin: 5px 0 5px 0;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.red-btn {
+  border: 2px solid #C85454;
+  border-radius: 7px;
+  padding: 0.5rem;
+  color: #C85454;
+  font-size: 20px;
+  transition: background 0.5s;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+}
+
+.red-btn:hover {
+  background: #C85454;
+  border: 2px solid #C85454;
+  color: #fff;
+}
+
+.dark-btn {
+    border: 2px solid #242424;
+    border-radius: 7px;
+    padding: 0.5rem;
+    color: #242424;
+    font-size: 20px;
+    transition: background 0.5s;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+}
+
+.dark-btn:hover {
+  background: #242424;
+  border: 2px solid #242424;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .red-btn {
+    font-size: 15px;
+  }
+  .dark-btn {
+    font-size: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .red-btn {
+    font-size: 12px;
+  }
+  .dark-btn {
+    font-size: 12px;
+  }
+}
+
