@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-timer-app/static/css/main.47b937b9.chunk.css",
+    "main.js": "/react-timer-app/static/js/main.6357a0a0.chunk.js",
+    "main.js.map": "/react-timer-app/static/js/main.6357a0a0.chunk.js.map",
+    "runtime-main.js": "/react-timer-app/static/js/runtime-main.c93c1b44.js",
+    "runtime-main.js.map": "/react-timer-app/static/js/runtime-main.c93c1b44.js.map",
+    "static/js/2.fbe47d4b.chunk.js": "/react-timer-app/static/js/2.fbe47d4b.chunk.js",
+    "static/js/2.fbe47d4b.chunk.js.map": "/react-timer-app/static/js/2.fbe47d4b.chunk.js.map",
+    "index.html": "/react-timer-app/index.html",
+    "static/css/main.47b937b9.chunk.css.map": "/react-timer-app/static/css/main.47b937b9.chunk.css.map",
+    "static/js/2.fbe47d4b.chunk.js.LICENSE.txt": "/react-timer-app/static/js/2.fbe47d4b.chunk.js.LICENSE.txt",
+    "static/media/Leapfrog.00b4adbd.ogg": "/react-timer-app/static/media/Leapfrog.00b4adbd.ogg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c93c1b44.js",
+    "static/js/2.fbe47d4b.chunk.js",
+    "static/css/main.47b937b9.chunk.css",
+    "static/js/main.6357a0a0.chunk.js"
+  ]
+}
